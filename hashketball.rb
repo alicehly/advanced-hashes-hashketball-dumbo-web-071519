@@ -118,7 +118,7 @@ def game_hash ()
       ]
     }
     
-    } 
+    }
   }  
 }
 
@@ -143,10 +143,10 @@ end
 good_practices
 
 def num_points_scored(name)
-  game_hash.each do |location, item|
-    item.each do |attribute, item|
+  game_hash.each do |location, team_data|
+    team_data.each do |attribute, data|
       if attribute== :players
-        item.each do |players|
+        data.each do |players|
           players.each do |name, val|
             if name==players_name
               return val[:points]
