@@ -151,7 +151,7 @@ def num_points_scored(name)
     if player.[:name]== players_name
         return player[:points]
     end
-    end
+    
     #compare player_name with each name.
    #once located grab player's points.
     binding.pry
