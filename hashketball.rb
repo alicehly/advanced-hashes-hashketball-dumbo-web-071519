@@ -202,7 +202,6 @@ def player_numbers(team)
     elsif game_hash[:away][:team]== team
     game_hash[:away[:players].push(item[:number])}
   end
-
   return numbers  
 end
 
