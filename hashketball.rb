@@ -206,7 +206,11 @@ def player_numbers(team)
 end
 
 def player_stats(name)
-# 
+# find location of players
+# find players
+# find names
+# return their player_stats
+
 
 return player_stats("name")
 end
