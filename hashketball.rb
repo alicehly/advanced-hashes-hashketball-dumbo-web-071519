@@ -185,14 +185,7 @@ end
 end
 
 def team_names
-  game_hash.each do |location, item|
-    item.each do |attribute, item|
-      if attribute == :team_name
-        names << item
-      end
-    end
-  end 
-  return names
+
 end
 
 def player_numbers(team_name)
