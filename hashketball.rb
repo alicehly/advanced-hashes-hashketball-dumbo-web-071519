@@ -205,20 +205,10 @@ def player_numbers(team)
   return numbers  
 end
 
-def player_stats(names)
-  game_hash.each do |location,item|
-    item.each do |attribute, data|
-      if attribute == :players 
-        data.each do |players|
-          players.each do |name, val|
-            if name == players_name
-              return val 
-            end
-          end
-        end
-      end
-    end
-  end    
+def player_stats(name)
+player_hash = {}
+
+return player_hash
 end
 
 
