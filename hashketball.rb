@@ -192,7 +192,7 @@ team.push(value[:team_name])}
 return team
 end
 
-def player_numbers(team_name)
+def player_numbers(team)
   numbers = []
 
   end 
