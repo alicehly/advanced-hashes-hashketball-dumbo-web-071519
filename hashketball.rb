@@ -213,6 +213,8 @@ def player_stats(name)
 
 
 return player_stats("name")
+stats = {}
+if game_hash[:away]
 end
 
 
