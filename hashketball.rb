@@ -177,10 +177,10 @@ end
 
 
 def team_colors(name)
-  game_hash[:home][:team_name] 
-  if [:team_name]== team_name
+  game_hash[:home][:team_name]==team_name 
     return [:home][:colors]
-  elsif 
+  game_hash[:away][team_name==team_name]
+    return [:away][:colors]
 end
 
 def team_name
