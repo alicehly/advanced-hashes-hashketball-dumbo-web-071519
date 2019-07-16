@@ -193,6 +193,8 @@ return team
 end
 
 def player_numbers(team)
+  # has an empty array that will have something pushed into item
+  # 
   numbers = []
 
   end 
