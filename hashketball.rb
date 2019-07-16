@@ -184,8 +184,10 @@ def team_colors(name)
 end
 end
 
-def team_names
-
+def team_names(team)
+# returns an array of team names
+team = []
+if game_hash[]
 end
 
 def player_numbers(team_name)
