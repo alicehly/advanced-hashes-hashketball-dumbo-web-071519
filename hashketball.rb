@@ -187,8 +187,7 @@ end
 def team_names(team)
 # returns an array of team names
 team = []
-if game_hash[:home][team_name]==team_name
-  return 
+game_hash.each{|key, value|
 end
 
 def player_numbers(team_name)
