@@ -188,7 +188,7 @@ def team_names(team)
 # returns an array of team names
 team = []
 game_hash.each{|key, value|
-
+team.push[]
 end
 
 def player_numbers(team_name)
