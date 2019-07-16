@@ -183,7 +183,6 @@ def team_colors(name)
     return [:away][:colors]
 end
 end
-end
 
 def team_name
   game_hash.each do |location, item|
