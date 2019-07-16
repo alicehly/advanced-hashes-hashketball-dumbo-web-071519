@@ -210,9 +210,6 @@ def player_stats(name)
 # find players
 # find names
 # return their player_stats
-
-
-return player_stats("name")
 stats = {}
 if game_hash[:away][:players]==
   
