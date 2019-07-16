@@ -197,8 +197,11 @@ def player_numbers(team)
   # find location
   # finds players and loops through to find number
   numbers = []
-  if game_hash[:home][:team] ==
-    game_hash[:home][:players].push(item[:number])
+  if game_hash[:home][:team] == team
+    game_hash[:home][:players].push(item[:number])}
+    elsif game_hash[:away][:team]== team
+    game_hash[:away[:players].push(item[:number])}
+    
     
   end 
   return numbers  
