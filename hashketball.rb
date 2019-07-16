@@ -194,9 +194,10 @@ end
 
 def player_numbers(team)
   # has an empty array that will have something pushed into item
-  # 
+  # find location
+  # finds players and loops through to find number
   numbers = []
-
+  game_hash[:home][:players] + 
   end 
   return numbers  
 end
