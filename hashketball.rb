@@ -214,7 +214,9 @@ def player_stats(name)
 
 return player_stats("name")
 stats = {}
-if game_hash[:away]
+if game_hash[:away][:players]==
+  
+  return stats
 end
 
 
