@@ -184,7 +184,7 @@ def team_colors(name)
 end
 end
 
-def team_name
+def team_names
   game_hash.each do |location, item|
     item.each do |attribute, item|
       if attribute == :team_name
