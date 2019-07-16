@@ -206,9 +206,9 @@ def player_numbers(team)
 end
 
 def player_stats(name)
-player_hash = {}
+# 
 
-return player_hash
+return player_stats("name")
 end
 
 
